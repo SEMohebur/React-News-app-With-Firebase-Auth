@@ -9,16 +9,17 @@ const FindUs = () => {
       <h2 className=" font-semibold">Find Us On</h2>
       <div className="join join-vertical w-full">
         <button className="btn join-item justify-start">
-          <FaFacebookF className=" text-indigo-500 bg-gray-200 rounded-full p-1 size-7 " />
-          Facebook
+          <FaFacebookF className=" text-indigo-500 bg-gray-200 rounded-full md:p-1 size-7  " />
+          <p className="text-[8px] md:text-[14px]">Facebook</p>
         </button>
         <button className="btn join-item justify-start">
-          <FaTwitter className=" text-sky-500 bg-gray-200 rounded-full p-1 size-7 " />
-          Twitter
+          <FaTwitter className=" text-sky-500 bg-gray-200 rounded-full md:p-1 size-7 " />
+
+          <p className="text-[8px] md:text-[14px]">Twitter</p>
         </button>
         <button className="btn join-item justify-start">
-          <FaInstagram className=" text-red-500 bg-gray-200 rounded-full p-1 size-7 " />
-          Instagram
+          <FaInstagram className=" text-red-500 bg-gray-200 rounded-full md:p-1 size-7 " />
+          <p className="text-[8px] md:text-[14px]"> Instagram</p>
         </button>
       </div>
     </div>
